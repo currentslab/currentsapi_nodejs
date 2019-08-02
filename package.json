@@ -1,7 +1,7 @@
 {
   "name": "currentsapi",
   "version": "0.1.0",
-  "description": "A node interface for News API from newsapi.org",
+  "description": "A node interface for News API from currentsapi.services",
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha",

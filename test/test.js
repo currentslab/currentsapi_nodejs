@@ -88,7 +88,18 @@ describe('CurrentsAPI', function () {
             done();
           });
         });
-    
+
+        it('should news return about politics', function (done) {
+          currentsAPI.search({category: "politics"}, (err, res) => {
+          if (err) {
+            return done(err);
+          }
+          res.status.should.equal('ok');
+          should(res.news[0].category.includes('politics')).be.exactly(true);
+          done();
+        });
+      });
+
     });
   });
 });
