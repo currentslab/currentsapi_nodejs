@@ -1,36 +1,28 @@
 {
   "name": "currentsapi",
-  "version": "0.1.0",
-  "description": "A node interface for News API from currentsapi.services",
-  "main": "dist/index.js",
+  "version": "0.2.0",
+  "description": "Official Node.js client for the Currents API",
+  "main": "src/index.js",
   "scripts": {
-    "test": "mocha",
-    "build": "babel src --out-dir dist",
-    "deploy": "npm publish"
+    "test": "mocha test/*.js"
   },
   "keywords": [
-    "data",
+    "currentsapi",
     "news",
     "api",
-    "currentsapi",
+    "currents",
     "news api"
   ],
   "author": "Currents Dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/currents-dev/currentsapi_nodejs"
+    "url": "https://github.com/currentslab/currentsapi_nodejs"
   },
   "license": "MIT",
-  "dependencies": {
-    "@babel/polyfill": "^7.0.0",
-    "node-fetch": "^2.2.0"
+  "engines": {
+    "node": ">=18.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.1",
-    "@babel/preset-env": "^7.0.0",
-    "dotenv": "^5.0.0",
-    "mocha": "^5.2.0",
-    "should": "^11.1.1"
+    "mocha": "^10.0.0"
   }
 }
