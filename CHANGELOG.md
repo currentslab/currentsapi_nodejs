@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.1
+
+### Changed
+- Bumped `mocha` devDependency from `^10.0.0` to `^11.7.6` to pick up upstream fixes.
+
 ## 0.2.0
 
 ### Added

@@ -1,6 +1,6 @@
 {
   "name": "currentsapi",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Official Node.js client for the Currents API",
   "main": "src/index.js",
   "scripts": {
@@ -23,6 +23,6 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "mocha": "^10.0.0"
+    "mocha": "^11.7.6"
   }
 }
